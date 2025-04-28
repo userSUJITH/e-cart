@@ -1,0 +1,40 @@
+nav{
+    background-color: rgba(0, 0, 0, 0.8); /* Black background with 80% opacity */
+    opacity: 0.9;
+}
+
+nav.navbar li a {
+    color: white;
+}
+.carousel-inner .carousel-item img {
+    height: 650px;
+    width: 100%;
+}
+
+.cont{
+    margin-top: 45px;
+    width:90%;
+    box-shadow: 0px 0px 50px 4px;
+}
+.cont:hover{
+    box-shadow: 0px 0px 50px 15px #febd69;
+    transition: 0.5s ease-in-out;
+}
+
+.container-fluid.card{
+ width:300px;
+ margin:10px;
+}
+.container-fluid .card a{
+    margin:10px;
+}
+.btn:hover{
+  transform: scale(1.05);  
+  transition:0.5s ease-in-out;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' width='30' height='30'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+  }
+  
